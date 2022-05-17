@@ -8,6 +8,7 @@ import Home from "../components/Home";
 import ProtectedRoutes from "./ProtectedRoutes";
 import PublicRoutes from "./PublicRoutes";
 import Error404 from "../components/Error404";
+import Snippets from "../pages/Snippets";
 
 const MainRoutes = () => {
   return (
@@ -16,6 +17,7 @@ const MainRoutes = () => {
       {/** Wrap all Route under ProtectedRoutes element */}
       <Route path="/" element={<ProtectedRoutes />}>
         <Route path="/" element={<Home />} />
+        <Route path="/snippets" element={<Snippets />} />
       </Route>
 
       {/** Public Routes */}

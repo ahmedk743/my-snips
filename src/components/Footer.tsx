@@ -8,7 +8,9 @@ function Footer() {
         <div className="content has-text-centered">
           <span>Copyright MySnips ⓒ {year}</span>
           <br />
-          <span>Developed by Malik Riaz Khan & Ahmed Khan - BSCS</span>
+          <span>
+            Developed by Malik Riaz Khan, Muhammad Asim & Ahmed Khan - BSCS
+          </span>
           <br />
           <span>Department of Computer Sciences & Software Engineering</span>
           <br />
